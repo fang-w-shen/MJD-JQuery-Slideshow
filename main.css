@@ -1,0 +1,71 @@
+img {
+	margin: 0 auto;
+	align-items: center;
+}
+.carousel {
+	background-color: grey;
+	height:300px;
+	width:90%;
+	margin:0 auto;
+	display:flex;
+	align-items:center;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+  background-color: grey;
+}
+
+
+.img-fluid{
+	align-content:center;
+}
+
+.hidden {
+	visibility:hidden;
+}
+
+.caption {
+      padding: 0 20px;
+      margin:0 auto;
+      text-align:center;
+      color:white;
+      font-weight:bolder;
+      opacity:.6;
+	  position: relative;
+	  height: 1em;
+	  z-index:1000;
+	  top:50px;
+}
+.nasa {
+	top:100px;
+}
+.flicker{
+	top:50px;
+	padding:auto;
+}
+.image2 {
+	max-width: 50%;
+	max-height: 50%;
+	opacity:.7;
+}
+.carousel-inner >  img {
+  max-width:440px;
+  max-height:260px;
+}
+.hover {
+	text-align: center;
+	font-weight: bolder;
+	color:white;
+}
+.rotation {
+	display:inline-block;
+}
+h1 {
+	text-align: center;
+	font-weight:bolder;
+}
+
+
