@@ -66,9 +66,20 @@ img {
 h1 {
 	text-align: center;
 	font-weight:bolder;
+	margin-bottom: 3em;
 }
 
 
-button {
+input {
 	text-align: center;
+	display: inline;
+}
+#carouselExampleIndicators1 {
+
+	margin-bottom:2em;
+}
+
+#carouselExampleIndicators {
+
+	margin-top:2em;
 }
